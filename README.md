@@ -1,51 +1,50 @@
-# Omori Dialogue Generator
+# Omori对话生成器中文版
 
-## Warning
-***Contains spoilers for the game OMORI, do not proceed if you have not played
-the game and want to avoid spoilers.***
+## 警告
+***含有OMORI游戏的剧透，如果你没有玩过该游戏并想避免剧透，请不要继续。***
 
 
-## What is this?
-This is a project that was inspired by a certain [Reddit post](https://www.reddit.com/r/OMORI/comments/rpl3p8/is_there_a_custom_dialogue_box_generator_anywhere/)
-(sue me, it took me 4 months to finally whip up something presentable).
+## 这是什么？
+这个项目的灵感来自于一个[Reddit的帖子](https://www.reddit.com/r/OMORI/comments/rpl3p8/is_there_a_custom_dialogue_box_generator_anywhere/)
+(起诉我吧，我花了4个月的时间才终于弄出了一些像样的东西）。
 
-This allows you to generate dialogue that is formatted the same way it is as in
-game, allowing for easier generation of memes and other dialogue that were
-*totally* said in game!
+这允许你生成格式与游戏中相同的对话，
+允许更容易地生成梗图和
+其他*完全*在游戏中出现过的对话。
 
-## How do I use it?
-Head on over to the [website](https://ransu-ll.github.io/Omori-Dialogue-Generator/),
-and then follow the instructions (similar to instructions found on the website)
-1. Select the desired settings
-2. Edit the contents of each of the boxes
-    * Character name is simple enough! Just click into it and edit!
-    * Assuming portraits are enabled, just
-      click into the box and a file prompt
-      will open!  
-      Any 106px by 106px image should do.
-      [Download the images folder from this repository](https://download-directory.github.io/?url=https%3A%2F%2Fgithub.com%2FRansu-ll%2FOmori-Dialogue-Generator%2Ftree%2Fmaster%2FCharacter%2520Images)
-    * Dialogue is a little harder, however! Ensure that you press enter if your
-      dialogue takes up more than one line to allow it to render properly
-      (unless you like squished text).
-      You should also ensure that it takes no more than three lines, otherwise
-      it will not be rendered properly.
-3. Press the long "render" button
-4. Get the image
-    * Press the large download button that will appear, or
-    * Right click and copy image to clipboard!
-5. And you should be done!
+## 我该怎么使用
+请前往[网页](https://ransu-ll.github.io/Omori-Dialogue-Generator/),
+然后按照指示操作（与网站上的指示相似）
+1. 选择下方所需的设置
+2. 编辑每个框内的内容
+    * 角色名已经够简单了！点一下然后修改就好了！
+    * 假设肖像开启了，那只要
+      点击那个框，然后就会出现
+      选择文件的窗口了！
+      任何106像素x106像素的都可以。
+      [从这个repository下载图片文件夹](https://download-directory.github.io/?url=https%3A%2F%2Fgithub.com%2FSheepYhangCN%2FOmori-Dialogue-Generator-Chinese%2Ftree%2Fmaster%2FCharacter%2520Images)
+    * 然而对话就有点难了！如果你的对话超过了一行，
+      请确保你按下回车键以使其能够正确渲染
+      （除非你喜欢压扁的文本）。
+      还要确保你的对话不超过三行，
+      以确保它能正确渲染。
+3. 按下长长的“渲染”按钮。
+4. 获取图片
+    * 按下最大的下载按钮然后就会出现，或者
+    * 右键然后复制图片到剪切板！
+5. 然后就没了！
 
-## Some examples!
+## 一些例子！
 ![Canon](https://user-images.githubusercontent.com/59227493/163705424-d9a7d8c8-612c-4b36-80cc-076cfd358363.png)
 ![Sunny](https://user-images.githubusercontent.com/59227493/163705580-fb6dc6cd-ba0a-434b-bc09-795038e55d2f.png)
 ![Noises](https://user-images.githubusercontent.com/59227493/163705610-342524ff-ad92-4717-9340-285967b147ad.png)
 
-## Contributing
-This repository is open to contributions!
+## 贡献
+这个repository是开放贡献的！
 
-## Copyright
-All image assets found under the Character Images folder belong to OMOCAT and I do not claim to own any of these assets.  
-The only asset I modified was the icon used for the website.
-For more information on the licensing, see [the license](LICENSE.md).
+## 版权
+角色图像文件夹下的所有图像资产都属于OMOCAT，我并不声称拥有这些资产。 
+我修改的唯一资产是用于网站的图标。
+关于许可证的更多信息，请参见[许可证声明](LICENSE.md).
 
-The OMORI game website can be found here: https://omori-game.com/
+OMORI游戏官网：https://omori-game.com/
