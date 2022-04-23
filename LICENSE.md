@@ -22,6 +22,5 @@ SOFTWARE.
 
 ---
 
-As Lance, I do not claim ownership of the images found under the Character 
-Images folder.  
-Those rightfully belong to OMOCAT and is only hosted here for ease of access.
+作为Lance，我不要求对”角色图像“文件夹下的图像的所有权。
+这些图片理所当然地属于OMOCAT，在这里存放只是为了方便访问。
