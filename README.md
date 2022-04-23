@@ -35,9 +35,10 @@
 5. 然后就没了！
 
 ## 一些例子！
-![Canon](https://user-images.githubusercontent.com/59227493/163705424-d9a7d8c8-612c-4b36-80cc-076cfd358363.png)
-![Sunny](https://user-images.githubusercontent.com/59227493/163705580-fb6dc6cd-ba0a-434b-bc09-795038e55d2f.png)
-![Noises](https://user-images.githubusercontent.com/59227493/163705610-342524ff-ad92-4717-9340-285967b147ad.png)
+![1](.\imgs\templates\1.png)
+![2](.\imgs\templates\2.png)
+![3](.\imgs\templates\3.png)
+![4](.\imgs\templates\4.png)
 
 ## 贡献
 这个repository是开放贡献的！
