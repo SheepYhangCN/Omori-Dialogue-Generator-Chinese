@@ -4,12 +4,12 @@ function toggleInfo(idToggle, idLink) {
 
     if (extendedDisplay.style.display == 'none' || extendedDisplay.style.display == '') {
         extendedDisplay.style.display = 'block';
-        toggleLink.text = 'How to use? (show less)';
+        toggleLink.text = '如何使用？（收起）';
     } else {
         extendedDisplay.style.display = 'none';
-        toggleLink.text = 'How to use? (show more)';
+        toggleLink.text = '如何使用？（展开）';
     }
-    console.log("toggled display!")
+    console.log("切换了显示！")
 };
 
 function togglePortrait(idCheckbox, idPortrait) {
