@@ -13,7 +13,7 @@
 其他*完全*在游戏中出现过的对话。
 
 ## 我该怎么使用
-请前往[网页](https://ransu-ll.github.io/Omori-Dialogue-Generator/),
+请前往[网页](https://sheepyhangcn.github.io/Omori-Dialogue-Generator-Chinese/),
 然后按照指示操作（与网站上的指示相似）
 1. 选择下方所需的设置
 2. 编辑每个框内的内容
