@@ -35,10 +35,10 @@
 5. 然后就没了！
 
 ## 一些例子！
-![1](\imgs\templates\1.png)
-![2](\imgs\templates\2.png)
-![3](\imgs\templates\3.png)
-![4](\imgs\templates\4.png)
+![1](/imgs/templates/1.png)
+![2](/imgs/templates/2.png)
+![3](/imgs/templates/3.png)
+![4](/imgs/templates/4.png)
 
 ## 贡献
 这个repository是开放贡献的！
