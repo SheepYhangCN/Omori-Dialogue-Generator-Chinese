@@ -22,7 +22,7 @@
       点击那个框，然后就会出现
       选择文件的窗口了！
       任何106像素x106像素的都可以。
-      [从这个repository下载图片文件夹](https://download-directory.github.io/?url=https%3A%2F%2Fgithub.com%2FSheepYhangCN%2FOmori-Dialogue-Generator-Chinese%2Ftree%2Fmaster%2FCharacter%2520Images)
+      [从这个仓库下载图片文件夹](https://download-directory.github.io/?url=https%3A%2F%2Fgithub.com%2FSheepYhangCN%2FOmori-Dialogue-Generator-Chinese%2Ftree%2Fmaster%2FCharacter%2520Images)
     * 然而对话就有点麻烦了！如果你的对话超过了一行，
       请确保你按了回车键以使其能够正确渲染
       （除非你喜欢压扁的文本）。
@@ -41,7 +41,7 @@
 ![4](/imgs/templates/4.png)
 
 ## 贡献
-这个repository是开放贡献的！
+这个仓库是开放贡献的！
 （仅限原仓库 汉化版仓库会不定时跟随原仓库更新）
 
 ## 版权
