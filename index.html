@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>Omori Dialogue Generator</title>
+  <title>Omori对话生成器r</title>
   <link rel="stylesheet" href="css/style.css" type="text/css">
   <link rel="icon" href="imgs/favicon.ico">
   <script type="text/javascript" src="js/script.js"></script>
@@ -11,63 +11,39 @@
 </head>
 
 <body>
-  <h1 id="title">Omori Script Generator</h1>
+  <h1 id="title">Omori脚本生成器</h1>
+  By Ransu-ll  汉化by憨憨羊の宇航鸽鸽<br>
   <div class="wrap-black">
     <div class="wrap-white box" id="info-box">
       <a id="toggle-link-info" href="#" onclick="toggleInfo('toggle-box-info', 'toggle-link-info')">
-        How to use? (show more)
+        如何使用？（显示更多）
       </a>
       <div id="toggle-box-info">
         <ol>
-          <li>Select the desired settings below</li>
+          <li>在下面选择所需的设置</li>
 
-          <li>Edit the contents of each of the boxes</li>
+          <li>编辑每个框的内容</li>
           <ul>
-            <li>Character name is simple enough!
-              Just click on it and edit.
+            <li>角色名字最简单！<br>就点一下然后直接改。
             </li>
 
-            <li>Assuming portraits are enabled, just
-              click into the box and a file prompt
-              will open! You can find pictures to
-              use via the
-              <a href="https://github.com/Ransu-ll/Omori-Dialogue-Generator" target="_blank">
-                GitHub repository
-              </a>
-              and download the images you want to
-              use! Any 106px x 106px is ideal.
-              To make it easier, you can
-              <a href="https://download-directory.github.io/?url=https%3A%2F%2Fgithub.com%2FRansu-ll%2FOmori-Dialogue-Generator%2Ftree%2Fmaster%2FCharacter%2520Images" target="_blank">
-                download the folder here.
-              </a>
+            <li>假设头像开启了，那只要<br>点击那个框，然后就会出现<br>选择文件的窗口了！你可以从<br><a href="https://github.com/Ransu-ll/Omori-Dialogue-Generator" target="_blank"> GitHub仓库</a><br>找到图片并且下载你想用的那张！<br>任何106像素x106像素的都可以。<br>如果想简单点，你可以<br><a href="https://download-directory.github.io/?url=https%3A%2F%2Fgithub.com%2FRansu-ll%2FOmori-Dialogue-Generator%2Ftree%2Fmaster%2FCharacter%2520Images" target="_blank">下载整个文件夹</a>
             </li>
-            <li>
-              Dialogue is a little harder, however!
-
-              Ensure that you press enter if your
-              dialogue takes up more than one line
-              to allow it to render properly
-              (unless you like squished text)
-
-              Also ensure your dialogue takes up no
-              more than three lines to ensure it
-              renders properly.
+            <li>然而对话就有点麻烦了！<br>如果你的对话超过了一行，<br>请确保你按了回车键以使其能够正确渲染<br>（除非你喜欢压扁的文本）。<br>还要确保你的对话不超过三行，<br>以确保它能正确渲染。
             </li>
           </ul>
 
-          <li>Press the long "render" button.</li>
+          <li>按下长长的“渲染”按钮。</li>
 
-          <li>Get the image</li>
+          <li>拿到图片</li>
           <ul>
-            <li>Press the large download button that
-              will appear, or</li>
-            <li>Right click and copy image to clipboard!</li>
+            <li>按下下载按钮然后图片就会出现，</li>
+            <li>或者右键然后复制图片到剪切板！</li>
           </ul>
         </ol>
       </div>
       <hr>
-      Note: The whole input is only an
-      approximate to what will actually be rendered.
+      Tips：输入区只是一个<br>近似于实际渲染的样板。
     </div>
   </div>
   <hr id="info-seperator">
@@ -78,19 +54,19 @@
         <tr>
           <td>
             <input id="toggle_portrait_0" class="toggle-portrait" type="checkbox" name="enable-portrait" checked onclick="togglePortrait('toggle_portrait_0', 'char_img_0')">
-            Enable Portrait?
+            启用头像？
           </td>
           <td>
-            <input type="button" name="clear-portrait" value="Clear Portrait" onclick="clearPortrait('char_img_0')">
+            <input type="button" name="clear-portrait" value="清除头像" onclick="clearPortrait('char_img_0')">
           </td>
         </tr>
         <tr>
           <td>
             <input id="toggle_disturbed_0" type="checkbox" name="enable-disturbed" value="Enable Disturbed?" onclick="toggleText('toggle_disturbed_0', 'dialogue_0')">
-            Enable Disturbed Text?
+            启用阴间文本？
           </td>
           <td>
-            <input type="button" name="clear-all-frame" value="Clear All in Frame" onclick="clearFrame('frame_0')">
+            <input type="button" name="clear-all-frame" value="重置文本" onclick="clearFrame('frame_0')">
           </td>
         </tr>
       </table>
@@ -100,7 +76,7 @@
     <div class="top-half">
       <div class="char-name-wrapper">
         <div class="wrap-black">
-          <input id="char_name_0" onkeydown="return event.key != 'Enter';" onchange="this.style.width = 0; this.style.width = this.scrollWidth - 11 + 'px';" type="text" name="Character Name" value="Edit me (character name)"
+          <input id="char_name_0" onkeydown="return event.key != 'Enter';" onchange="this.style.width = 0; this.style.width = this.scrollWidth - 11 + 'px';" type="text" name="Character Name" value="编辑我（角色名）"
             class="wrap-white char-name box">
           <!-- Okay, I got lazy here with the inline JS -->
         </div>
@@ -114,13 +90,13 @@
     </div>
     <div class="bottom-half">
       <div class="wrap-black">
-        <textarea id='dialogue_0' class="dialogue-box wrap-white box">Edit me (dialogue)</textarea>
+        <textarea id='dialogue_0' class="dialogue-box wrap-white box">编辑我（对话）</textarea>
       </div>
     </div>
     <br>
-    <input type="button" name="render" value="Render! (output will appear below)" onclick="renderCanvas('frame_0', 'download_0'); displayDownload('download_0')">
+    <input type="button" name="render" value="渲染！（输出会在下面出现）" onclick="renderCanvas('frame_0', 'download_0'); displayDownload('download_0')">
     <canvas id="output_0" width="608" height="230"></canvas>
-    <a href="#" class="download" id="download_0" download="output.png">Download Image</a>
+    <a href="#" class="download" id="download_0" download="output.png">下载图片</a>
   </form>
 
 </body>

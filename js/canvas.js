@@ -57,7 +57,7 @@ function renderCanvas(idFrame, idDownload) {
 
   // Load character name
   ctx.fillStyle = "white";
-  ctx.fillText(charName, 12, 96);
+  ctx.fillText(charName, 12, 100);
 
   // Load textarea
   let dialogue = document.getElementsByClassName("dialogue-box")[0].value;
@@ -71,14 +71,14 @@ function renderCanvas(idFrame, idDownload) {
     // Source/Adapted from: https://gh.princessrtfm.com/niko.html
     // Check out https://github.com/PrincessRTFM, they're hella huge brain
     // for the logic of this thing.
-    let yBase = 150; // Determined from doing some alignment in Paint.NET
+    let yBase = 154; // Determined from doing some alignment in Paint.NET
     let maxLineLength = 572; // Determined by same method
     let splitText = unsplitText.split("\n");
 
     for (let lineNo = 0; lineNo < splitText.length; lineNo++) {
       console.log(lineNo);
       if (lineNo >= 3) {
-        alert('Only a maximum of three lines can fit. The fourth line and so has not been rendered.');
+        alert('只能容纳三行。第四行及以上未被渲染。');
         break;
       }
       let line = splitText[lineNo];
@@ -96,7 +96,7 @@ function renderCanvas(idFrame, idDownload) {
           }
         }
       }
-      context.fillText(line, 18, yBase + (29 * lineNo), maxLineLength);
+      context.fillText(line, 12, yBase + (29 * lineNo), maxLineLength);
     }
   }
 
